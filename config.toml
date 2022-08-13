@@ -24,6 +24,25 @@ languageName = "日本語"
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
 
+  # Header config
+  [params.header]
+    # desktop header mode ["fixed", "normal", "auto"]
+    desktopMode = "fixed"
+    # mobile header mode ["fixed", "normal", "auto"]
+    mobileMode = "auto"
+    # LoveIt NEW | 0.2.0 Header title config
+    [params.header.title]
+      # URL of the LOGO
+      logo = "" #タイトル横にロゴをつける場合
+      # title name
+      name = "minokubaのblog"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = ""
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+      # LoveIt NEW | 0.2.5 whether to use typeit animation for title name
+      typeit = false
+
   # LoveIt NEW | 0.2.0 App icon config
   [params.home.profile]
   enable = true
@@ -53,6 +72,17 @@ languageName = "日本語"
 
 # Menu config
 [menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "Profile"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "自己紹介"
+    url = "/profile"
+    # title will be shown when you hover on this menu link
+    title = ""
   [[menu.main]]
     weight = 1
     identifier = "posts"
@@ -111,3 +141,18 @@ languageName = "日本語"
     index = ""
     appID = ""
     searchKey = ""
+
+[params.social]
+  GitHub = "direboar"
+  Twitter = "minokuba"
+  Twitch  = "yukari_0918"
+  [params.social.x]
+    # weight when arranging icons (the greater the weight, the later the icon is positioned)
+    weight = 99
+    # your social ID
+    id = "minokuba"
+    # prefix of your social link
+    prefix = "https://note.com/"
+    # content hovering on the icon
+    title = "Notes"
+    icon = {class = "far fa-sticky-note"}
