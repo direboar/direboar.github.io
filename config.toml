@@ -81,7 +81,7 @@ languageName = "日本語"
     name = "記事"
     url = "/posts/"
     # title will be shown when you hover on this menu link
-    title = "1111"
+    title = "記事"
   [[menu.main]]
     weight = 2
     identifier = "tags"
@@ -89,7 +89,7 @@ languageName = "日本語"
     post = ""
     name = "タグ"
     url = "/tags/"
-    title = "2222"
+    title = "タグ"
   [[menu.main]]
     weight = 3
     identifier = "categories"
@@ -97,7 +97,7 @@ languageName = "日本語"
     post = ""
     name = "カテゴリ"
     url = "/categories/"
-    title = "3333"
+    title = "カテゴリ"
   [[menu.main]]
     weight = 10
     identifier = "Profile"
@@ -105,7 +105,7 @@ languageName = "日本語"
     post = ""
     name = "自己紹介"
     url = "/profile"
-    title = "4444"
+    title = "自己紹介"
 
 # Markup related configuration in Hugo
 [markup]
