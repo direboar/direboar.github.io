@@ -24,15 +24,19 @@
         <div class="wrapper">
             {{- partial "header.html" . -}}
             <main class="main">
-                {{- partial "google/adsence" . -}}        
                 <div class="container">
                     {{- block "content" . }}{{ end -}}
                 </div>
             </main>
             {{- partial "footer.html" . -}}
-            {{- partial "google/adsence" . -}}        
         </div>
-        {{- partial "google/adsence" . -}}        
+        <div class="wrapper">
+            <main class="main">
+                <div class="container">
+                    {{- partial "google/adsence" . -}}        
+                </div>
+            </main>
+        </div>
 
         <div id="fixed-buttons">
             {{- /* top button */ -}}
