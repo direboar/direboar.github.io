@@ -1,7 +1,6 @@
 # https://github.com/ToruNiina/website/blob/f626f586c4fab9476d9bfb871abb895181120d98/config.toml が参考になる
 # https://github.com/dillonzq/LoveIt/issues/516 google adsenceやgoogle analystics.
 baseURL = "https://direboar.github.io"
-#baseURL = "https://direboar.github.io/minokuba_blog/"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
