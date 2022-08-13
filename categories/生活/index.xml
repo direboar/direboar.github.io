@@ -1,5 +1,31 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>生活 - カテゴリ - minokubaのblog</title><link>https://direboar.github.io/categories/%E7%94%9F%E6%B4%BB/</link><description>生活 - カテゴリ - minokubaのblog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 12 Aug 2022 22:53:03 +0900</lastBuildDate><atom:link href="https://direboar.github.io/categories/%E7%94%9F%E6%B4%BB/" rel="self" type="application/rss+xml"/><item><title>テスト</title><link>https://direboar.github.io/posts/life/test/</link><pubDate>Fri, 12 Aug 2022 22:53:03 +0900</pubDate><author>minokuba</author><guid>https://direboar.github.io/posts/life/test/</guid><description>&lt;div class="featured-image">
-&lt;img src="/xxxx.png" referrerpolicy="no-referrer">
-&lt;/div>テストタイトル Hugo+Loveitでのブログ作成テスト
-ほげほげ ああああああああああああああああああああああああああああああああああああああああああああああああああ。
-順序付けられたリストです。 Consectetur adipiscing elit Integer molestie lorem at massa ふがふが いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい。</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>生活 - カテゴリ - minokubaのblog</title><link>https://direboar.github.io/categories/%E7%94%9F%E6%B4%BB/</link><description>生活 - カテゴリ - minokubaのblog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 18 Jan 2021 22:21:00 +0900</lastBuildDate><atom:link href="https://direboar.github.io/categories/%E7%94%9F%E6%B4%BB/" rel="self" type="application/rss+xml"/><item><title>肩こりが改善されそう➀</title><link>https://direboar.github.io/posts/life/katakori1/</link><pubDate>Mon, 18 Jan 2021 22:21:00 +0900</pubDate><author>minokuba</author><guid>https://direboar.github.io/posts/life/katakori1/</guid><description>自分の肩こりの程度について 2014年あたりから腱鞘炎っぽい症状があり、整骨院に1年程度通ったのだけど改善せず。その後手のしびれが発生。スポーツ整形に行った結果、「胸郭出口症候群」という診断を受けました。要は肩甲骨周りがゴリゴリに凝っていて血流が悪くなっているためとのこと。腱鞘炎っぽい症状も悪いのは手ではなく、肩甲骨周りの筋肉が使えないので手に負荷がかかっているせいのことらしい。
+んで、痺れは改善したものの手の張りは引かず、背中の異常な凝りも解消せず（肩を回すとゴリゴリ音が鳴るレベル）。スポーツ整形に1年以上通っても改善しないといった状況の中、コロナが始まったので通院をやめて今に至る感じです。スポーツ整形で習った運動を一応しても現状維持以上にならないのでこれはもうなおらんなーと思っていました。
+コロナになってから、自分は在宅勤務が徹底されていたので体力維持目的で1日1時間散歩をするようにしていました。ただ散歩だけだと体力の低下を感じることもあり、年始から以下を追加で始めました。
+中山きんにくんの「世界で一番楽な筋トレ＆有酸素運動」
+腰痛・肩こり駆け込み寺【山内義弘】の肩甲骨はがし
+なんか突然改善の兆し で、最近寒かったので3日ぶりに散歩に出たところ、なんか背中がバキバキ鳴り始めながら少し動いてきた…。ちょっと肩甲骨を意識するように肩を使うようにしたら、バキバキ鳴りながら肩甲骨周りがちょっとずつ動いてきた・・・！　一時間歩いた後は肩甲骨周りが多少なりとも動くようになり、背筋を意識して動かすことができるようになった。突然のことで超びっくりした。
+今noteを書いているのは散歩後３時間後だけど、状態戻ってきてしまっているので、たぶん肩甲骨はがしだけが効果があるわけじゃなくて、肩甲骨はがしをしたうえで、体を動かすとよいってことなのかもしれない。（歩くのは肩甲骨にいいって聞いたことある）
+ということで、もうしばらく同じルーチンを回すことで今後肩甲骨周りの問題が解決するかを観察する予定です。誰か同じ実験やってくれるなら教えてくだせぇ。</description></item><item><title>2021年について</title><link>https://direboar.github.io/posts/life/about2021/</link><pubDate>Sat, 02 Jan 2021 01:48:00 +0900</pubDate><author>minokuba</author><guid>https://direboar.github.io/posts/life/about2021/</guid><description><![CDATA[2020年にやったこと Twitch Twicth配信で遊んだ。配信するのはツール類さえそろえれば簡単。ただ、しっかりリスナーが付くような配信をするには、ゲームの技術とか会話技術、Vにするなら音声周りやアバター等の環境面もそろえないといけないので、ハードルめっちゃ高そう。とりあえず誰も見ないゲーム記録配信はだらだら続ける。最近配信しないでゲームやってると寂しくなってきた…。
+AWS AWS資格試験(SAA)合格した。AWS経験ないとこからなのでほめて。あとAWSちょこちょこいじった。主にS3、Lambda、DynamoDB、Cognito周り。あとLambdaに関連してAWS CDK、Serverless Framework少しって感じか。多少は慣れたかな～。
+ツール開発 TRPG系のツール作成は以下3つ作った。
+D&amp;D5e用のモンスターキャラコマ作成ツール作成 D&amp;D SRD掲載モンスターのユドナリウムキャラコマ 正式版を展開します。
+以下のページを参照してください。https://t.co/lCxEIrXha5
+細かいことは上記のURLと、ZIPファイルに添付したReadMe.txtに記載されているのでそちらを参照してください#TRPG #DnD #DnD5e #DnDj #ユドナリウム #Udonarium
+&mdash; みのくば(高山ゆかり) (@minokuba) May 5, 2020 これはTypeScriptの練習目的を兼ねて作りました。
+D&amp;D5e用のプレイヤーキャラコマ作成ツール作成 D&amp;D5E キャラクターデータベースに登録したキャラクターの情報から、ユドナリウムのキャラコマを作成するサイトを作成しました。https://t.co/DsioNKHNQr
+以下、リプライに説明などを張り付けていきます。（そのうちサイトを更新します）#TRPG #DnD #DnD5e #DnDj #ユドナリウム #Udonarium
+&mdash; みのくば(高山ゆかり) (@minokuba) May 21, 2020 技術的には特に目的ないけど、単に欲しかったので作った。
+D&amp;Dデータ検索用Discordボット作成
+AWSいじるきっかけとして作りました。あとNuxtとVuexをいじる練習も兼ねて。これは内輪向けなので、Twitterとかで公開してません。
+VTuberにハマる 在宅勤務ということもあり家にいる時間が増えたので、すっかりVTuber（甲賀流忍者ぽんぽこ）にハマってしまった。ぽこぴーはいいぞ。 テレビゲーム関連 ハースストーン卒業して、かわりにバトグラを延々とやった。結果、バトグラ向いてないっていうか、一つのゲームストイックにやって極めるの向いてないのではと思った。
+TRPG関連 コロナの影響で、プレイグループがオンセに移行。スムーズに移行できたのでゲームの機会はこれまで同様維持されてよかった。（頻度で言えば増えたという話も…。）D&amp;D5版とサイフィク系が中心。
+2020年あかんかったこと 体力低下 在宅勤務の影響。1日1時間歩くようにはしたけど、やっぱり筋力は低下したっぽい。電動自転車で坂をのぼったとき、太ももに負荷を感じた時点でヤバいでしょ。。。
+Youtube依存 youtubeに無駄に削られる時間が増えてしまった。なんで見てるのかわからない動画を見ているときに時間削られてるなーって感じる。
+コミュ力低下 在宅勤務のせいか、コミュ力が落ちて行っている気がしてならない。決まった人としか喋らないし、会社の同僚とも対面で話さないから、コミュニケーションが適当になってる気がする。
+2021年にやろうかなと思うこと 目標と書くと面倒なので、あくまでふんわりやりたいかなーくらいのこと。
+AWSからめて何か違うもの作れるようにする。 候補はAWS Amplify+モバイルアプリか、IoT関連…なんだけど、このご時世自分はモバイルアプリは使わないので作りたいものが思いつかない。(iPadなら使うけど、iOS系のモバイルアプリ作るのはハードル高い）
+IoTはお仕事柄触れといたほうがいいんだけど、これも特に作りたいなーというものが思いつかない。とりあえず勢いで買ったラズパイが放置されているので、触ってAWS　IoTにつなげるチュートリアルくらいはやらんとな…。
+体力低下対策なんかする。
+とりあえず中山きんにくんの「世界で一番楽な筋トレ＆有酸素運動」をしばらく続けようかなーと思ってる。
+本当はもっとしっかりしたトレーニングしたほうがいいけど、いきなり目標レベルを上げると続かなくなるので。1日10分でしばらく続ける。2日やったけど、軽い筋肉痛はきたので多少なりとも効果はありそう。
+Youtubeに削られる時間を改善する とりあえずYoutubeから距離を取りたい。ぽこぴー以外は見ない方向にしたいなぁ…。まぁ、ついつい関連動画とか見たくなっちゃうんだけどね。]]></description></item></channel></rss>
