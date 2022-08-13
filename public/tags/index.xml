@@ -1,0 +1,39 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - minokubaのblog</title>
+        <link>https://direboar.github.io/minokuba_blog/tags/</link>
+        <description>Tags - Tag - minokubaのblog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 12 Aug 2022 22:53:03 &#43;0900</lastBuildDate><atom:link href="https://direboar.github.io/minokuba_blog/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>D&amp;D シノビガミ</title>
+    <link>https://direboar.github.io/minokuba_blog/tags/dd-%E3%82%B7%E3%83%8E%E3%83%93%E3%82%AC%E3%83%9F/</link>
+    <pubDate>Fri, 12 Aug 2022 22:53:03 &#43;0900</pubDate>
+    <author>minokuba</author>
+    <guid>https://direboar.github.io/minokuba_blog/tags/dd-%E3%82%B7%E3%83%8E%E3%83%93%E3%82%AC%E3%83%9F/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>javascript</title>
+    <link>https://direboar.github.io/minokuba_blog/tags/javascript/</link>
+    <pubDate>Fri, 12 Aug 2022 22:53:03 &#43;0900</pubDate>
+    <author>minokuba</author>
+    <guid>https://direboar.github.io/minokuba_blog/tags/javascript/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>お試し</title>
+    <link>https://direboar.github.io/minokuba_blog/tags/%E3%81%8A%E8%A9%A6%E3%81%97/</link>
+    <pubDate>Fri, 12 Aug 2022 22:53:03 &#43;0900</pubDate>
+    <author>minokuba</author>
+    <guid>https://direboar.github.io/minokuba_blog/tags/%E3%81%8A%E8%A9%A6%E3%81%97/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>バトグラ</title>
+    <link>https://direboar.github.io/minokuba_blog/tags/%E3%83%90%E3%83%88%E3%82%B0%E3%83%A9/</link>
+    <pubDate>Fri, 12 Aug 2022 22:53:03 &#43;0900</pubDate>
+    <author>minokuba</author>
+    <guid>https://direboar.github.io/minokuba_blog/tags/%E3%83%90%E3%83%88%E3%82%B0%E3%83%A9/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
