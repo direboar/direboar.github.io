@@ -74,23 +74,12 @@ languageName = "日本語"
 [menu]
   [[menu.main]]
     weight = 1
-    identifier = "Profile"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "自己紹介"
-    url = "/profile"
-    # title will be shown when you hover on this menu link
-    title = ""
-  [[menu.main]]
-    weight = 1
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "Posts"
+    name = "記事"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
@@ -99,7 +88,7 @@ languageName = "日本語"
     identifier = "tags"
     pre = ""
     post = ""
-    name = "Tags"
+    name = "タグ"
     url = "/tags/"
     title = ""
   [[menu.main]]
@@ -107,8 +96,16 @@ languageName = "日本語"
     identifier = "categories"
     pre = ""
     post = ""
-    name = "Categories"
+    name = "カテゴリ"
     url = "/categories/"
+    title = ""
+  [[menu.main]]
+    weight = 10
+    identifier = "Profile"
+    pre = ""
+    post = ""
+    name = "自己紹介"
+    url = "/profile"
     title = ""
 
 # Markup related configuration in Hugo
@@ -122,7 +119,7 @@ languageName = "日本語"
   home = ["HTML", "RSS", "JSON"]
 
 [params.search]
-  enable = true
+  enable = false # lunrでの全文検索がうまく動かないのでいったんなし。
   # type of search engine ["lunr", "algolia"]
   type = "lunr"
   # max index length of the chunked content
@@ -136,11 +133,7 @@ languageName = "日本語"
   # LoveIt NEW | 0.2.1 HTML tag name of the highlight part in results
   highlightTag = "em"
   # LoveIt NEW | 0.2.4 whether to use the absolute URL based on the baseURL in search index
-  absoluteURL = false
-  [params.search.algolia]
-    index = ""
-    appID = ""
-    searchKey = ""
+  absoluteURL = true
 
 [params.social]
   GitHub = "direboar"
