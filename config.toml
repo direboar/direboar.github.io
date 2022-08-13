@@ -17,11 +17,11 @@ languageName = "日本語"
 
 [params]
   # website title for Open Graph and Twitter Cards
-  title = "ｘｘｘｘ"
+  title = "minokubaのblog"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "ｘｘｘｘｘｘ"
+  # description = "ｘｘｘｘｘｘ"
   # website images for Open Graph and Twitter Cards
-  images = ["/logo.png"]
+  images = ["minokuba.png"]
 
   # Header config
   [params.header]
@@ -32,7 +32,7 @@ languageName = "日本語"
     # LoveIt NEW | 0.2.0 Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "" #タイトル横にロゴをつける場合
+      logo = "minokuba.png" #タイトル横にロゴをつける場合
       # title name
       name = "minokubaのblog"
       # you can add extra information before the name (HTML format is supported), such as icons
@@ -45,8 +45,8 @@ languageName = "日本語"
   # LoveIt NEW | 0.2.0 App icon config
   [params.home.profile]
   enable = true
-  avatarURL = "minokuba.png"
-  subtitle = "minokubaのblog"
+  avatarURL = ""
+  subtitle = "<h1>minokubaのblog</h1>"
   typeit = false
   social = true  
 
