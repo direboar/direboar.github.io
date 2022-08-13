@@ -23,8 +23,8 @@
         {{- /* Body wrapper */ -}}
         <div class="wrapper">
             {{- partial "header.html" . -}}
-            {{- partial "google/adsence" . -}}        
             <main class="main">
+                {{- partial "google/adsence" . -}}        
                 <div class="container">
                     {{- block "content" . }}{{ end -}}
                 </div>
@@ -46,6 +46,6 @@
 
         {{- /* Load JavaScript scripts and CSS */ -}}
         {{- partial "assets.html" . -}}
-        {{- partial "google/adsence-multiplex" . -}}        
+        {{- partial "google/adsence" . -}}        
     </body>
 </html>
