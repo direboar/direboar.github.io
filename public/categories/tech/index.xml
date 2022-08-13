@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tech - Category - minokubaのblog</title>
-        <link>https://direboar.github.io/minokuba_blog/categories/tech/</link>
+        <link>https://direboar.github.io/categories/tech/</link>
         <description>Tech - Category - minokubaのblog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 12 Aug 2022 22:53:03 &#43;0900</lastBuildDate><atom:link href="https://direboar.github.io/minokuba_blog/categories/tech/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 12 Aug 2022 22:53:03 &#43;0900</lastBuildDate><atom:link href="https://direboar.github.io/categories/tech/" rel="self" type="application/rss+xml" /><item>
     <title>テスト</title>
-    <link>https://direboar.github.io/minokuba_blog/posts/tech/test/</link>
+    <link>https://direboar.github.io/posts/tech/test/</link>
     <pubDate>Fri, 12 Aug 2022 22:53:03 &#43;0900</pubDate>
     <author>minokuba</author>
-    <guid>https://direboar.github.io/minokuba_blog/posts/tech/test/</guid>
+    <guid>https://direboar.github.io/posts/tech/test/</guid>
     <description><![CDATA[テストタイトル Hugo+Loveitでのブログ作成テスト
 ほげほげ ああああああああああああああああああああああああああああああああああああああああああああああああああ。
 順序付けられたリストです。 Consectetur adipiscing elit Integer molestie lorem at massa ふがふが いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい。]]></description>

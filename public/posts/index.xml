@@ -1,46 +1,46 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - minokubaのblog</title>
-        <link>https://direboar.github.io/minokuba_blog/posts/</link>
+        <link>https://direboar.github.io/posts/</link>
         <description>All Posts | minokubaのblog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 12 Aug 2022 22:53:03 &#43;0900</lastBuildDate><atom:link href="https://direboar.github.io/minokuba_blog/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 12 Aug 2022 22:53:03 &#43;0900</lastBuildDate><atom:link href="https://direboar.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>テスト</title>
-    <link>https://direboar.github.io/minokuba_blog/posts/bg/test/</link>
+    <link>https://direboar.github.io/posts/bg/test/</link>
     <pubDate>Fri, 12 Aug 2022 22:53:03 &#43;0900</pubDate>
     <author>minokuba</author>
-    <guid>https://direboar.github.io/minokuba_blog/posts/bg/test/</guid>
+    <guid>https://direboar.github.io/posts/bg/test/</guid>
     <description><![CDATA[テストタイトル Hugo+Loveitでのブログ作成テスト
 ほげほげ ああああああああああああああああああああああああああああああああああああああああああああああああああ。
 順序付けられたリストです。 Consectetur adipiscing elit Integer molestie lorem at massa ふがふが いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい。]]></description>
 </item>
 <item>
     <title>テスト</title>
-    <link>https://direboar.github.io/minokuba_blog/posts/life/test/</link>
+    <link>https://direboar.github.io/posts/life/test/</link>
     <pubDate>Fri, 12 Aug 2022 22:53:03 &#43;0900</pubDate>
     <author>minokuba</author>
-    <guid>https://direboar.github.io/minokuba_blog/posts/life/test/</guid>
+    <guid>https://direboar.github.io/posts/life/test/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="/minokuba_blog/xxxx.png" referrerpolicy="no-referrer">
+                <img src="/xxxx.png" referrerpolicy="no-referrer">
             </div>テストタイトル Hugo+Loveitでのブログ作成テスト
 ほげほげ ああああああああああああああああああああああああああああああああああああああああああああああああああ。
 順序付けられたリストです。 Consectetur adipiscing elit Integer molestie lorem at massa ふがふが いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい。]]></description>
 </item>
 <item>
     <title>テスト</title>
-    <link>https://direboar.github.io/minokuba_blog/posts/tech/test/</link>
+    <link>https://direboar.github.io/posts/tech/test/</link>
     <pubDate>Fri, 12 Aug 2022 22:53:03 &#43;0900</pubDate>
     <author>minokuba</author>
-    <guid>https://direboar.github.io/minokuba_blog/posts/tech/test/</guid>
+    <guid>https://direboar.github.io/posts/tech/test/</guid>
     <description><![CDATA[テストタイトル Hugo+Loveitでのブログ作成テスト
 ほげほげ ああああああああああああああああああああああああああああああああああああああああああああああああああ。
 順序付けられたリストです。 Consectetur adipiscing elit Integer molestie lorem at massa ふがふが いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい。]]></description>
 </item>
 <item>
     <title>テスト</title>
-    <link>https://direboar.github.io/minokuba_blog/posts/trpg/test/</link>
+    <link>https://direboar.github.io/posts/trpg/test/</link>
     <pubDate>Fri, 12 Aug 2022 22:53:03 &#43;0900</pubDate>
     <author>minokuba</author>
-    <guid>https://direboar.github.io/minokuba_blog/posts/trpg/test/</guid>
+    <guid>https://direboar.github.io/posts/trpg/test/</guid>
     <description><![CDATA[テストタイトル Hugo+Loveitでのブログ作成テスト
 ほげほげ ああああああああああああああああああああああああああああああああああああああああああああああああああ。
 順序付けられたリストです。 Consectetur adipiscing elit Integer molestie lorem at massa ふがふが いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい。]]></description>
