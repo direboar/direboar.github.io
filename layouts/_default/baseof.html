@@ -30,7 +30,9 @@
                 </div>
             </main>
             {{- partial "footer.html" . -}}
+            {{- partial "google/adsence" . -}}        
         </div>
+        {{- partial "google/adsence" . -}}        
 
         <div id="fixed-buttons">
             {{- /* top button */ -}}
@@ -45,7 +47,6 @@
         </div>
 
         {{- /* Load JavaScript scripts and CSS */ -}}
-        {{- partial "google/adsence" . -}}        
         {{- partial "assets.html" . -}}
     </body>
 </html>
