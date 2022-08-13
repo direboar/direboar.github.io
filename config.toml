@@ -32,7 +32,7 @@ languageName = "日本語"
     # LoveIt NEW | 0.2.0 Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = "minokuba.png" #タイトル横にロゴをつける場合
+      logo = "https://direboar.github.io/minokuba.png" #タイトル横にロゴをつける
       # title name
       name = "minokubaのblog"
       # you can add extra information before the name (HTML format is supported), such as icons
