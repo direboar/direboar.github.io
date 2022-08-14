@@ -1,4 +1,27 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>全ての 記事 - minokubaのblog</title><link>https://direboar.github.io/posts/</link><description>全ての 記事 | minokubaのblog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 17 Dec 2021 23:34:00 +0900</lastBuildDate><atom:link href="https://direboar.github.io/posts/" rel="self" type="application/rss+xml"/><item><title>バトグラの戦績を自動で記録する神ツールの紹介</title><link>https://direboar.github.io/posts/games/bg/battlegrounds-match-data/</link><pubDate>Fri, 17 Dec 2021 23:34:00 +0900</pubDate><author>minokuba</author><guid>https://direboar.github.io/posts/games/bg/battlegrounds-match-data/</guid><description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>全ての 記事 - minokubaのblog</title><link>https://direboar.github.io/posts/</link><description>全ての 記事 | minokubaのblog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 14 Aug 2022 14:00:00 +0900</lastBuildDate><atom:link href="https://direboar.github.io/posts/" rel="self" type="application/rss+xml"/><item><title>Github Pages + Hugo + Loveitでブログを作ってみた</title><link>https://direboar.github.io/posts/tech/hugo-and-loveit/</link><pubDate>Sun, 14 Aug 2022 14:00:00 +0900</pubDate><author>minokuba</author><guid>https://direboar.github.io/posts/tech/hugo-and-loveit/</guid><description><![CDATA[<div class="featured-image">
+                <img src="https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg" referrerpolicy="no-referrer">
+            </div>ブログをつくるよ ブログ作る目的 最近作ったサービスYontakuの技術情報をどこかにメモしたいなと考えていたのですが、NotesやQiitaで共有しても広告付かないし、自分の資産にならないのでイマイチかな？と思い、せっかくなので自分のブログを立ち上げることにしました。
+「はてなブログ」で立ち上げることも考えたのですが・・・。過去に「はてなダイアリー」でブログ作ってまして、Springのマニュアル邦訳（DIのところくらいまで）作っていたので多少はPVもあったのですが、「はてなダイアリー」終了で悲しい思いをしまして。。。そういう経緯もあり外部サービスに頼るのやめて、自分のブログを持とうかなと。
+ブログ作る方法 ガチでやるならレンタルサーバ借りてWordPress鉄板なんでしょうが
+【初心者でも安心】たった10分で出来るWordPressブログの始め方
+ブログで稼ぐ気なんてさらさらない 左程PV集まる算段もない たぶん続かない ので、そんなことしません。かわりに以下の方法でやります。これなら無料で運営できます。
+Hugoを使用してブログのコンテンツを作成する ブログはGithub Pagesに無料でホスティングする 続くかもわかんないのでドメインは取らない。Github Pagesのドメインで運用する。 ということで、これ以降はHugoを使ってブログを作成した際の覚書を記載します。
+Hugoとは Webサイトを生成するための静的サイトジェネレータです。Webサイトを作成する際に、HTMLを直接書く必要はありません。MarkdownファイルからWebページを生成することができます。
+MarkdownからどのようなWebサイトを生成するかについては、Hugoのテーマを選択することで決まります。自分が使いたいテーマを選択することができます。 Hugoの詳細は、まくまくHugoノートにかなり詳細にまとまっていそうなので、こちらを参照ください。
+Loveitとは Hugoでブログを作成するためのテーマです。開発者は中国の方みたいですね。どのテーマにするかはHugoのテーマサイトで以下の基準で評価して決めました。
+GitHubスターの数 最終更新日（今もメンテされているか） 見た目のイメージが気にいるか。 見た目がごてごてしておらずすっきりしていたこと、ダークテーマの切り替えや検索機能が実装されていることも好印象でした。（チャイナに偏見持ちなので一瞬拒否反応出そうになりましたがｗ）
+Loveitのその他の特徴はWhy choose LoveItやFeaturesを見るとよいかと思います。
+Hugo+Loveitをとりあえず使えるようになるまでに踏んだ手順 Hugo自体結構機能が多そうで、真面目に勉強すると時間がかかりそうだなーと思ったので、以下の手順でやりました。大分サボりました。
+Hugoの概要をどこかのページでいくつか眺める Hugoのインストールを行う Hugoのusageを行う LoveItのTheme Documentation - Basicsを読み、簡単なサイトを作る それ以降は、LoveItのマニュアルを中心に読んで対応しました。Hugoちゃんと勉強してからのが良かったかなーと思うところもあったので、最初にフォルダの意味や基本的な仕組み（layoutsとthemeの関係とか）くらいは理解しておいたほうが良いかもしれません。
+実際にサイト作ってみた感想としては、マークダウンのフォーマットやテーマのカスタマイズなどは結局テーマごとに異なるので、実際に使うテーマのマニュアルを中心に取り組んだ方が結果的に早く理解できるかなーと思いました。
+Hugo+Loveit+Github Pagesでブログ作成時の細かいTips 現時点でハマっている内容も含めてメモします。
+Github Pagesでホスティングしたい Hugoのマニュアルにバッチリ記載されています。Github ActionsのYAMLファイルも提供されているので、ほんとほぼこのまんまできるはずです。めちゃくちゃ楽。
+Faviconを表示したい Loveitのマニュアルに記載されています。Faviconの作り方も書いてあって助かる。
+ちなみにFaviconを表示したい場合はGithub PagesをUser/Organization Pages(URLを[https://&lt;USERNAME|ORGANIZATION&gt;.github.io/]とする)で作らないとFaviconが読み込まれないので注意（ハマったのは内緒（　＾ω＾）・・・）
+Google Adsence Githubのイシューが上がっていて、この内容によるとthemeのテンプレートをカスタマイズして直接修正するしかないそうです。仕方ないので修正対象のテンプレートをlayoutsフォルダにコピーして、直接JavaScriptの読込やGoogle Adsenceタグを張り付ける実装をしました。
+タグ一覧やカテゴリ一覧の文言を日本語にしたい デモサイトのタグ一覧の右上の表示「All Tags」を日本語に変えたかったのですが、ちょっとハマりました。多言語対応として文言が設定されていたので、4.3 Overwrite Translation Stringsを参考にカスタマイズすればよいのですが、Loveitが日本語に対応していないんですよね。
+仕方ないので、config.toml上はlanguageCode = &quot;en&quot;として設定し、em.tomlをカスタマイズして文言を変更しましたが、なんかモヤモヤする。言語コードに何設定されても動くようにしておけばいいのに。直接テンプレートいじって直しちゃったほうが良いかもしれません。
+ソーシャルリンクをProfileに表示したい、日本語フォントに変更したい Toru Niinaさまのサイトを参考にさせていただきました。]]></description></item><item><title>バトグラの戦績を自動で記録する神ツールの紹介</title><link>https://direboar.github.io/posts/games/bg/battlegrounds-match-data/</link><pubDate>Fri, 17 Dec 2021 23:34:00 +0900</pubDate><author>minokuba</author><guid>https://direboar.github.io/posts/games/bg/battlegrounds-match-data/</guid><description><![CDATA[<div class="featured-image">
                 <img src="/1.webp" referrerpolicy="no-referrer">
             </div>はじめに バトグラでレート9000ぐらいをウロチョロしている人間です。 シーズン1の頃からなんとなくやってましたが、シーズン4後半あたりから熱が入り、Twitchの動画をみたりtwitterで流れてくる攻略を見たりするようになりました。 どこの記事だったか忘れましたが、バトグラを上達するには戦績を記録して自分の得意なヒーローを把握するとよい、という話を聞きました。バトグラで戦績を取るアプリを調べてみましたが、大半は自分で戦績を記録する必要があり、面倒くさがりな自分にはちょっと…という感じでした。 一応職業プログラマの端くれの私、デッキトラッカーとうまく連携して自動で戦績取れるツール作れないかな、、となんとなくググったところ、そのものずばりのツールがあった！ということで私はこれを使っています。
 ツールの紹介 PCでバトグラをする場合に使用できます。使い方は簡単で、
