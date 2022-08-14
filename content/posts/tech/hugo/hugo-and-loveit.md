@@ -63,7 +63,7 @@ Hugo自体結構機能が多そうで、真面目に勉強すると時間がか�
 * Hugoの概要をどこかのページでいくつか眺める
 * [Hugoのインストール](https://gohugo.io/getting-started/installing/)を行う
 * [Hugoのusage](https://gohugo.io/getting-started/usage/)を行う
-* [LoveItのTheme Documentation - Basics](https://gohugo.io/getting-started/usage/)を読み、簡単なサイトを作る
+* [LoveItのTheme Documentation - Basics](https://hugoloveit.com/theme-documentation-basics/)を読み、簡単なサイトを作る
 
 それ以降は、LoveItのマニュアルを中心に読んで対応しました。Hugoちゃんと勉強してからのが良かったかなーと思うところもあったので、最初にフォルダの意味や基本的な仕組み（layoutsとthemeの関係とか）くらいは理解しておいたほうが良いかもしれません。
 
