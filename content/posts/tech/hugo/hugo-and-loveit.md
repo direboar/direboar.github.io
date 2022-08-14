@@ -2,7 +2,7 @@
 title: Github Pages + Hugo + Loveitでブログを作ってみた
 draft: false #draft。-Dをつけないと表示されない。
 date: 2022-08-14T14:00:00+09:00
-lastmod: 2022-08-14T14:00:00+09:00
+lastmod: 2022-08-15T01:00:00+09:00
 images: [posts/tech/hugo/hugo-and-loveit/hugo-logo-wide.svg] #twitter cards.
 
 tags: [Hugo] #tag
@@ -92,6 +92,12 @@ Hugo自体結構機能が多そうで、真面目に勉強すると時間がか�
 
 ### ソーシャルリンクをProfileに表示したい、日本語フォントに変更したい
 [Toru Niinaさまのサイト](https://toruniina.github.io/ja/posts/building-a-website-powered-by-hugo-and-loveit/)を参考にさせていただきました。
+
+### ブログの文字数表示がおかしい
+ブログの先頭に表示されているブログの文字数が正しく表示されない。これはconfig.tomlに```hasCJKLanguage = true```を定義することで解消しました。
+
+### コメント機能を追加する
+disqueという静的なサイトにコメントを追加するためのサービスを使用することで実現できます。[このサイト](https://note.hommalab.io/posts/web/add-disqus-to-hugo-site/)に完璧な手順が記載されていました！
 
 ### ブログのソースコード
 [私のリポジトリへのリンク](https://github.com/direboar/direboar.github.io)を置いておきます。config.tomlの内容まじめによむのつらたん、、となったときのカンニング先としてどうぞ。
