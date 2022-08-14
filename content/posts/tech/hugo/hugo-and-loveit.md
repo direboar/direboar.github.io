@@ -3,14 +3,15 @@ title: Github Pages + Hugo + Loveitでブログを作ってみた
 draft: false #draft。-Dをつけないと表示されない。
 date: 2022-08-14T14:00:00+09:00
 lastmod: 2022-08-14T14:00:00+09:00
-images: [https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg] #twitter cards.
+images: [posts/tech/hugo/hugo-and-loveit/hugo-logo-wide.svg] #twitter cards.
 
 tags: [Hugo] #tag
 categories: [Tech] #カテゴリ
 
-featuredImage: "https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg" 
+featuredImage: "hugo-logo-wide.svg" 
 #記事の頭に表示する画像。static/posts/<title>/からの相対パス。 
-featuredImagePreview: "https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg" 
+featuredImagePreview: "posts/tech/hugo/hugo-and-loveit/hugo-logo-wide.svg" 
+# featuredImagePreview: "https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg" 
 #ブログ一覧画面に表示するPreview 。staticからの相対パス。
 
 hiddenFromHomePage: false #ホームページ非表示にする場合はtrue
