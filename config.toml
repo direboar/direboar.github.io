@@ -1,4 +1,5 @@
 baseURL = "https://direboar.github.io"
+disqusShortname = "minokubanoblog"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -149,3 +150,27 @@ hasCJKLanguage = true
     # content hovering on the icon
     title = "Notes"
     icon = {class = "far fa-sticky-note"}
+
+  [params.page]
+    [params.page.toc]
+      # whether to enable the table of the contents
+      enable = true
+      # LoveIt NEW | 0.2.9 whether to keep the static table of the contents in front of the post
+      keepStatic = true
+      # whether to make the table of the contents in the sidebar automatically collapsed
+      auto = true
+    [params.page.comment]
+      enable = true
+      # Disqus comment config
+      [params.page.comment.disqus]
+        # LoveIt NEW | 0.1.1
+        enable = true
+        # Disqus shortname to use Disqus in posts
+        shortname = "minokubanoblog"
+#    [params.page.seo]
+#      # image URL
+#      images = []
+#      # Publisher info
+#      [params.page.seo.publisher]
+#        name = ""
+#        logoUrl = ""
