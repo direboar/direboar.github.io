@@ -11,6 +11,9 @@ categories: [TRPG] #カテゴリ
 hiddenFromHomePage: false #ホームページ非表示にする場合はtrue
 hiddenFromSearch: false #検索結果非表示にする場合はtrue
 
+toc:
+  auto: false
+
 ---
 ## ウィザード／ブレードシンガー
 

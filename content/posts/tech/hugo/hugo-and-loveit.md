@@ -18,6 +18,9 @@ hiddenFromHomePage: false #ホームページ非表示にする場合はtrue
 hiddenFromSearch: false #検索結果非表示にする場合はtrue
 # 省略したテンプレートは以下を参照  https://hugoloveit.com/theme-documentation-content/#front-matter
 
+toc:
+  auto: false
+
 ---
 ## ブログをつくるよ
 ### ブログ作る目的 

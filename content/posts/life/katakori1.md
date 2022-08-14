@@ -16,6 +16,9 @@ hiddenFromHomePage: false #ホームページ非表示にする場合はtrue
 hiddenFromSearch: false #検索結果非表示にする場合はtrue
 # 省略したテンプレートは以下を参照  https://hugoloveit.com/theme-documentation-content/#front-matter
 
+toc:
+  auto: false
+
 ---
 ## 自分の肩こりの程度について
 2014年あたりから腱鞘炎っぽい症状があり、整骨院に1年程度通ったのだけど改善せず。その後手のしびれが発生。スポーツ整形に行った結果、「胸郭出口症候群」という診断を受けました。要は肩甲骨周りがゴリゴリに凝っていて血流が悪くなっているためとのこと。腱鞘炎っぽい症状も悪いのは手ではなく、肩甲骨周りの筋肉が使えないので手に負荷がかかっているせいのことらしい。

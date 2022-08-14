@@ -14,6 +14,8 @@ featuredImagePreview: "posts/games/bg/battlegrounds-match-data/1.webp" #ブロ�
 hiddenFromHomePage: false #ホームページ非表示にする場合はtrue
 hiddenFromSearch: false #検索結果非表示にする場合はtrue
 
+toc:
+  auto: false
 ---
 ## はじめに
 バトグラでレート9000ぐらいをウロチョロしている人間です。
