@@ -1,5 +1,3 @@
-# https://github.com/ToruNiina/website/blob/f626f586c4fab9476d9bfb871abb895181120d98/config.toml が参考になる
-# https://github.com/dillonzq/LoveIt/issues/516 google adsenceやgoogle analystics.
 baseURL = "https://direboar.github.io"
 
 # Change the default theme to be use when building the site with Hugo
@@ -7,7 +5,7 @@ theme = "LoveIt"
 
 # website title
 title = "minokubaのblog"
-description = "111"
+description = "minokubaのblogです。"
 images = ["minokuba.png"]
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
@@ -52,7 +50,7 @@ languageName = "日本語"
 
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "xxxxx"
+    title = "minokubaのblog"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -117,6 +115,7 @@ languageName = "日本語"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+#検索
 [params.search]
   enable = false # lunrでの全文検索がうまく動かないのでいったんなし。
   # type of search engine ["lunr", "algolia"]
@@ -134,6 +133,7 @@ languageName = "日本語"
   # LoveIt NEW | 0.2.4 whether to use the absolute URL based on the baseURL in search index
   absoluteURL = true
 
+#ソーシャル
 [params.social]
   GitHub = "direboar"
   Twitter = "minokuba"
