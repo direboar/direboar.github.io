@@ -12,6 +12,7 @@ images = ["minokuba.png"]
 languageCode = "en" #jaが効かないためenで設定し、enのi18nファイルを書き換えている。
 # language name ["English", "简体中文", "Français", "Polski", ...]
 languageName = "日本語"
+hasCJKLanguage = true
 
 [params]
   # website title for Open Graph and Twitter Cards
